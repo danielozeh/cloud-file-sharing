@@ -12,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.204.0",
+    "@aws-cdk/aws-lambda": "^1.204.0",
+    "@aws-cdk/aws-s3": "^1.204.0",
+    "@aws-cdk/core": "^1.204.0",
     "aws-sdk": "^2.1692.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -20,6 +24,7 @@
     "nodemon": "^3.1.9"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/morgan": "^1.9.9",
