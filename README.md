@@ -85,9 +85,17 @@ npm run dev
 ```
 
 ## Using Docker
+Make sure you have docker installed on your machine.
+
+### Build your docker container
 
 ```bash
 docker build -t cloud-file-sharing .
+```
+
+### Start your docker container
+
+```bash
 docker run -p 4000:4000 cloud-file-sharing
 ```
 
