@@ -6,7 +6,8 @@ This project is a cloud-based file-sharing service that utilizes AWS Lambda, API
 ## Prerequisites
 
 - Node.js
-- Docker
+- AWS CLI
+- AWS Account
 
 ## Clone the repo
 
