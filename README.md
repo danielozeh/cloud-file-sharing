@@ -20,6 +20,14 @@ git clone https://github.com/danielozeh/cloud-file-sharing.git
 cd cloud-file-sharing
 ```
 
+## Set up environment variables
+
+Copy the .env.example file and rename it to .env.
+Also update the .env file with your AWS credentials and other necessary variables.
+```bash
+cp .env.example .env
+```
+
 ## Install AWS CLI
 
 ```bash
